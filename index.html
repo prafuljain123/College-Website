@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>login page</title>
+     <link rel="stylesheet" href="login.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+   <div>
+       <h1>Login Page...</h1>
+   </div>
+<form name="my form" action="newproject.html" onsubmit="return validateform()" class="form" img src="mietlogo.png">
+    <table>
+        <tr>
+            <td><h2> Username</h2> </td>
+            <td>
+                <input type="text" id="username" onkeypress="return onlyAlphabet(event)" placeholder="Enter User Name" autocomplete="off" required>        
+           </td>
+            
+        </tr>
+        <tr>
+            <td> <h2>Password </h2></td>
+            <td>
+                 <input type="password" placeholder="Enter Password" id="password" required>
+            </td>
+        </tr>
+         <tr>
+                <th colspan="2"><input type="submit" value="Login"></th>
+        </tr>
+    </table>
+</form>
+</body>   
+</html>
